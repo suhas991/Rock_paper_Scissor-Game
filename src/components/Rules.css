@@ -1,0 +1,19 @@
+.rule {
+      border: 1px solid white;
+      padding: 0px 15px;
+      border-radius: 10px;
+      width: fit-content;
+    
+}
+.contain{
+    display: flex;
+    justify-content: flex-end;
+}
+.container{
+    border-radius: 0.5rem;
+}
+@media screen and (max-width :450px){
+    .contain{
+        justify-content:center;
+    }
+  }

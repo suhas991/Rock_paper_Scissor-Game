@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;600;700&display=swap');
+.lvl1{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.lvl2{
+    display: flex;
+    flex-direction: row;
+}
+.wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 25px;
+    background-image: url('../assets/images/bg-triangle.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+}
+
+.user{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        /* align-content: center; */
+        justify-content: center;
+        gap: 10px;
+}
+.ai{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* align-content: center; */
+    justify-content: center;
+    gap: 10px;
+
+}
+.wrap2{
+    display: flex;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 700;
+    font-size: x-large;
+     display: flex;
+     gap: 50px;
+     margin: 20px;
+     flex-direction: column;
+}
+.wrap3{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+@media screen and (max-width :450px){
+    .wrap {
+        gap: 10px;
+        margin: 15px;
+    }
+  }
